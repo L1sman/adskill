@@ -1,0 +1,29 @@
+@use "./styles/index" as styles;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#root {
+  padding: 2rem;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: styles.$font-family-base;
+  font-size: styles.$font-size-base;
+  font-weight: styles.$font-weight-medium;
+  line-height: styles.$line-height-base;
+  background-color: styles.$background-color;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+}

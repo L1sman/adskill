@@ -1,0 +1,960 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Digital Pulse",
+      "account_manager_image": "/public/avatars/Userpic.jpg",
+      "sales_manager_image": "/public/avatars/Userpic.jpg",
+      "start_date": "10.01.2025",
+      "account_manager": "Alexei",
+      "sales_manager": "Marina",
+      "status": "ACTIVE",
+      "type_of_client": "Advertiser",
+      "experience": "Intermediate",
+      "monthly_budgets": "5000$ - 10000$",
+      "balance_usd": 72345.12,
+      "balance_rub": 185230.50,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Brand Awareness",
+          "sources": ["Google", "Instagram"],
+          "spend": 15432.65,
+          "profit": 29876.43,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Lead Gen",
+          "sources": ["Facebook"],
+          "spend": 8765.32,
+          "profit": 14321.89,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Wire Transfer",
+          "exchange_extras": 15.00,
+          "vat": 18.00,
+          "start_date": "01.02.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AdVibe",
+      "account_manager_image": "/public/avatars/Userpic.jpg",
+      "sales_manager_image": "/public/avatars/Userpic.jpg",
+      "start_date": "15.02.2025",
+      "account_manager": "Dmitry",
+      "sales_manager": "Olga",
+      "status": "INACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 3000$",
+      "balance_usd": 12345.67,
+      "balance_rub": 98765.43,
+      "loans_rub": 50000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Traffic Boost",
+          "sources": ["Yandex", "TikTok"],
+          "spend": 5432.10,
+          "profit": 8765.21,
+          "status": "INACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Singapore",
+          "exchange_extras": 25.00,
+          "vat": 20.00,
+          "start_date": "10.03.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ClickStorm",
+      "account_manager_image": "/public/avatars/avatar5.jpg",
+      "sales_manager_image": "/public/avatars/avatar6.jpg",
+      "start_date": "20.03.2025",
+      "account_manager": "Ivan",
+      "sales_manager": "Yulia",
+      "status": "ACTIVE",
+      "type_of_client": "Agency",
+      "experience": "Expert",
+      "monthly_budgets": "10000$ - 20000$",
+      "balance_usd": 98765.43,
+      "balance_rub": 245678.90,
+      "loans_rub": 100000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "E-commerce Push",
+          "sources": ["Google", "Amazon"],
+          "spend": 32456.78,
+          "profit": 45678.90,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Retargeting",
+          "sources": ["Facebook", "Instagram"],
+          "spend": 12345.67,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Credit Card",
+          "exchange_extras": 10.00,
+          "vat": 15.00,
+          "start_date": "15.04.2023",
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "20.04.2023",
+          "status": "INACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "WebFlow",
+      "account_manager_image": "/public/avatars/avatar7.jpg",
+      "sales_manager_image": "/public/avatars/avatar8.jpg",
+      "start_date": "25.04.2025",
+      "account_manager": "Pavel",
+      "sales_manager": "Elena",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Intermediate",
+      "monthly_budgets": "3000$ - 7000$",
+      "balance_usd": 45678.90,
+      "balance_rub": 123456.78,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "SEO Campaign",
+          "sources": ["Google"],
+          "spend": 9876.54,
+          "profit": 17654.32,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "PayPal",
+          "exchange_extras": 12.00,
+          "vat": 17.00,
+          "start_date": "25.05.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "PromoPeak",
+      "account_manager_image": "/public/avatars/avatar9.jpg",
+      "sales_manager_image": "/public/avatars/avatar10.jpg",
+      "start_date": "30.05.2025",
+      "account_manager": "Nikolai",
+      "sales_manager": "Svetlana",
+      "status": "INACTIVE",
+      "type_of_client": "Advertiser",
+      "experience": "Noob",
+      "monthly_budgets": "500$ - 2000$",
+      "balance_usd": 2345.67,
+      "balance_rub": 56789.01,
+      "loans_rub": 25000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Social Media Blitz",
+          "sources": ["Instagram", "TikTok"],
+          "spend": 3456.78,
+          "profit": 5678.90,
+          "status": "INACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Singapore",
+          "exchange_extras": 22.00,
+          "vat": 19.00,
+          "start_date": "30.06.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "TrendSet",
+      "account_manager_image": "/public/avatars/avatar11.jpg",
+      "sales_manager_image": "/public/avatars/avatar12.jpg",
+      "start_date": "05.06.2025",
+      "account_manager": "Viktor",
+      "sales_manager": "Anna",
+      "status": "ACTIVE",
+      "type_of_client": "Agency",
+      "experience": "Expert",
+      "monthly_budgets": "15000$ - 25000$",
+      "balance_usd": 123456.78,
+      "balance_rub": 345678.90,
+      "loans_rub": 200000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Global Campaign",
+          "sources": ["Google", "Facebook", "LinkedIn"],
+          "spend": 45678.90,
+          "profit": 67890.12,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Local Ads",
+          "sources": ["Yandex"],
+          "spend": 23456.78,
+          "profit": 34567.89,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Wire Transfer",
+          "exchange_extras": 18.00,
+          "vat": 20.00,
+          "start_date": "05.07.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "GrowEasy",
+      "account_manager_image": "/public/avatars/avatar13.jpg",
+      "sales_manager_image": "/public/avatars/avatar14.jpg",
+      "start_date": "10.07.2025",
+      "account_manager": "Mikhail",
+      "sales_manager": "Irina",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Intermediate",
+      "monthly_budgets": "2000$ - 6000$",
+      "balance_usd": 34567.89,
+      "balance_rub": 98765.43,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Annualized",
+          "sources": ["Google", "Instagram"],
+          "spend": 12345.67,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Credit Card",
+          "exchange_extras": 15.00,
+          "vat": 18.00,
+          "start_date": "10.08.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "MarketMaverick",
+      "account_manager_image": "/public/avatars/avatar15.jpg",
+      "sales_manager_image": "/public/avatars/avatar16.jpg",
+      "start_date": "15.08.2025",
+      "account_manager": "Sergei",
+      "sales_manager": "Tatiana",
+      "status": "INACTIVE",
+      "type_of_client": "Advertiser",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 4000$",
+      "balance_usd": 5678.90,
+      "balance_rub": 45678.90,
+      "loans_rub": 30000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Product Launch",
+          "sources": ["Facebook"],
+          "spend": 4567.89,
+          "profit": 7890.12,
+          "status": "INACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "PayPal",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "15.09.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "BrandBuzz",
+      "account_manager_image": "/public/avatars/avatar17.jpg",
+      "sales_manager_image": "/public/avatars/avatar18.jpg",
+      "start_date": "20.09.2025",
+      "account_manager": "Andrei",
+      "sales_manager": "Vera",
+      "status": "ACTIVE",
+      "type_of_client": "Agency",
+      "experience": "Expert",
+      "monthly_budgets": "20000$ - 30000$",
+      "balance_usd": 234567.89,
+      "balance_rub": 567890.12,
+      "loans_rub": 500000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Multi-Channel",
+          "sources": ["Google", "Facebook", "TikTok"],
+          "spend": 67890.12,
+          "profit": 89012.34,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Video Ads",
+          "sources": ["YouTube"],
+          "spend": 34567.89,
+          "profit": 45678.90,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Wire Transfer",
+          "exchange_extras": 25.00,
+          "vat": 20.00,
+          "start_date": "20.10.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "ClickCrafters",
+      "account_manager_image": "/public/avatars/avatar19.jpg",
+      "sales_manager_image": "/public/avatars/avatar20.jpg",
+      "start_date": "25.10.2025",
+      "account_manager": "Roman",
+      "sales_manager": "Nadia",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Intermediate",
+      "monthly_budgets": "4000$ - 8000$",
+      "balance_usd": 45678.90,
+      "balance_rub": 123456.78,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Affiliate Campaign",
+          "sources": ["Google"],
+          "spend": 9876.54,
+          "profit": 17654.32,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "25.11.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "AdSpark",
+      "account_manager_image": "/public/avatars/avatar21.jpg",
+      "sales_manager_image": "/public/avatars/avatar22.jpg",
+      "start_date": "30.11.2025",
+      "account_manager": "Konstantin",
+      "sales_manager": "Maria",
+      "status": "ACTIVE",
+      "type_of_client": "Advertiser",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 5000$",
+      "balance_usd": 12345.67,
+      "balance_rub": 98765.43,
+      "loans_rub": 40000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Startup Promo",
+          "sources": ["Instagram"],
+          "spend": 5432.10,
+          "profit": 8765.21,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Credit Card",
+          "exchange_extras": 15.00,
+          "vat": 18.00,
+          "start_date": "30.12.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "ViralVibe",
+      "account_manager_image": "/public/avatars/avatar23.jpg",
+      "sales_manager_image": "/public/avatars/avatar24.jpg",
+      "start_date": "05.12.2025",
+      "account_manager": "Oleg",
+      "sales_manager": "Ksenia",
+      "status": "INACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Intermediate",
+      "monthly_budgets": "3000$ - 6000$",
+      "balance_usd": 23456.78,
+      "balance_rub": 123456.78,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Content Marketing",
+          "sources": ["Google", "LinkedIn"],
+          "spend": 12345.67,
+          "profit": 23456.78,
+          "status": "INACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "PayPal",
+          "exchange_extras": 12.00,
+          "vat": 17.00,
+          "start_date": "05.01.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "PromoPros",
+      "account_manager_image": "/public/avatars/avatar25.jpg",
+      "sales_manager_image": "/public/avatars/avatar26.jpg",
+      "start_date": "10.01.2026",
+      "account_manager": "Vladimir",
+      "sales_manager": "Anastasia",
+      "status": "ACTIVE",
+      "type_of_client": "Agency",
+      "experience": "Expert",
+      "monthly_budgets": "25000$ - 35000$",
+      "balance_usd": 345678.90,
+      "balance_rub": 678901.23,
+      "loans_rub": 750000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Enterprise Ads",
+          "sources": ["Google", "LinkedIn", "Twitter"],
+          "spend": 78901.23,
+          "profit": 90123.45,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "B2B Campaign",
+          "sources": ["LinkedIn"],
+          "spend": 45678.90,
+          "profit": 56789.01,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Wire Transfer",
+          "exchange_extras": 25.00,
+          "vat": 20.00,
+          "start_date": "10.02.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "ClickQuest",
+      "account_manager_image": "/public/avatars/avatar27.jpg",
+      "sales_manager_image": "/public/avatars/avatar28.jpg",
+      "start_date": "15.02.2026",
+      "account_manager": "Yuri",
+      "sales_manager": "Ekaterina",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 3000$",
+      "balance_usd": 5678.90,
+      "balance_rub": 45678.90,
+      "loans_rub": 20000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Niche Ads",
+          "sources": ["Google"],
+          "spend": 3456.78,
+          "profit": 5678.90,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Singapore",
+          "exchange_extras": 22.00,
+          "vat": 19.00,
+          "start_date": "15.03.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "AdMomentum",
+      "account_manager_image": "/public/avatars/avatar29.jpg",
+      "sales_manager_image": "/public/avatars/avatar30.jpg",
+      "start_date": "20.03.2026",
+      "account_manager": "Artem",
+      "sales_manager": "Lilia",
+      "status": "ACTIVE",
+      "type_of_client": "Advertiser",
+      "experience": "Intermediate",
+      "monthly_budgets": "5000$ - 10000$",
+      "balance_usd": 67890.12,
+      "balance_rub": 123456.78,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Conversion Ads",
+          "sources": ["Google", "Facebook"],
+          "spend": 23456.78,
+          "profit": 34567.89,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Credit Card",
+          "exchange_extras": 15.00,
+          "vat": 18.00,
+          "start_date": "20.04.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "TrendTrack",
+      "account_manager_image": "/public/avatars/avatar31.jpg",
+      "sales_manager_image": "/public/avatars/avatar32.jpg",
+      "start_date": "25.04.2026",
+      "account_manager": "Igor",
+      "sales_manager": "Alina",
+      "status": "INACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Noob",
+      "monthly_budgets": "500$ - 2000$",
+      "balance_usd": 2345.67,
+      "balance_rub": 56789.01,
+      "loans_rub": 15000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Micro Campaign",
+          "sources": ["Instagram"],
+          "spend": 1234.56,
+          "profit": 2345.67,
+          "status": "INACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "PayPal",
+          "exchange_extras": 12.00,
+          "vat": 17.00,
+          "start_date": "25.05.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "BoostBase",
+      "account_manager_image": "/public/avatars/avatar33.jpg",
+      "sales_manager_image": "/public/avatars/avatar34.jpg",
+      "start_date": "30.05.2026",
+      "account_manager": "Evgeny",
+      "sales_manager": "Daria",
+      "status": "ACTIVE",
+      "type_of_client": "Agency",
+      "experience": "Expert",
+      "monthly_budgets": "30000$ - 40000$",
+      "balance_usd": 456789.01,
+      "balance_rub": 789012.34,
+      "loans_rub": 1000000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Luxury Ads",
+          "sources": ["Google", "LinkedIn", "Instagram"],
+          "spend": 90123.45,
+          "profit": 123456.78,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Premium Campaign",
+          "sources": ["Facebook"],
+          "spend": 56789.01,
+          "profit": 67890.12,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Wire Transfer",
+          "exchange_extras": 25.00,
+          "vat": 20.00,
+          "start_date": "30.06.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "ClickCore",
+      "account_manager_image": "/public/avatars/avatar35.jpg",
+      "sales_manager_image": "/public/avatars/avatar36.jpg",
+      "start_date": "05.06.2026",
+      "account_manager": "Maxim",
+      "sales_manager": "Polina",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Intermediate",
+      "monthly_budgets": "2000$ - 5000$",
+      "balance_usd": 34567.89,
+      "balance_rub": 98765.43,
+      "loans_rub": 0.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Traffic Drive",
+          "sources": ["Google"],
+          "spend": 9876.54,
+          "profit": 17654.32,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "05.07.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "AdWave",
+      "account_manager_image": "/public/avatars/avatar37.jpg",
+      "sales_manager_image": "/public/avatars/avatar38.jpg",
+      "start_date": "10.07.2026",
+      "account_manager": "Boris",
+      "sales_manager": "Valentina",
+      "status": "ACTIVE",
+      "type_of_client": "Advertiser",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 4000$",
+      "balance_usd": 5678.90,
+      "balance_rub": 45678.90,
+      "loans_rub": 25000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "New Product",
+          "sources": ["Facebook"],
+          "spend": 4567.89,
+          "profit": 7890.12,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Credit Card",
+          "exchange_extras": 15.00,
+          "vat": 18.00,
+          "start_date": "10.08.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "PromoPulse",
+      "account_manager_image": "/public/avatars/avatar39.jpg",
+      "sales_manager_image": "/public/avatars/avatar40.jpg",
+      "start_date": "15.08.2026",
+      "account_manager": "Leonid",
+      "sales_manager": "Sofia",
+      "status": "ACTIVE",
+      "type_of_client": "Agency",
+      "experience": "Expert",
+      "monthly_budgets": "40000$ - 50000$",
+      "balance_usd": 567890.12,
+      "balance_rub": 901234.56,
+      "loans_rub": 1500000.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Global Reach",
+          "sources": ["Google", "Facebook", "LinkedIn"],
+          "spend": 123456.78,
+          "profit": 234567.89,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Elite Campaign",
+          "sources": ["Instagram", "YouTube"],
+          "spend": 78901.23,
+          "profit": 90123.45,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Wire Transfer",
+          "exchange_extras": 25.00,
+          "vat": 20.00,
+          "start_date": "15.09.2024",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Click Baza",
+      "account_manager_image": "/public/avatars/Userpic.jpg",
+      "sales_manager_image": "/public/avatars/Userpic.jpg",
+      "start_date": "14.01.2025",
+      "account_manager": "Sergei",
+      "sales_manager": "Sergei",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 5000$",
+      "balance_usd": 55579.38,
+      "balance_rub": 140345.00,
+      "loans_rub": 140345.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Primary Text",
+          "sources": ["Google", "Facebook"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Secondary Text",
+          "sources": ["Google"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "14.03.2023",
+          "status": "INACTIVE"
+        },
+        {
+          "id": 2,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "14.03.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Click Baza",
+      "account_manager_image": "/public/avatars/Userpic.jpg",
+      "sales_manager_image": "/public/avatars/Userpic.jpg",
+      "start_date": "14.02.2025",
+      "account_manager": "Sergei",
+      "sales_manager": "Sergei",
+      "status": "ACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 5000$",
+      "balance_usd": 55579.38,
+      "balance_rub": 140345.00,
+      "loans_rub": 140345.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Primary Text",
+          "sources": ["Google", "Facebook"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Secondary Text",
+          "sources": ["Google"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 3,
+          "title": "Secondary Text",
+          "sources": ["Google"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "14.03.2023",
+          "status": "INACTIVE"
+        },
+        {
+          "id": 2,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "14.03.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Click Baza",
+      "account_manager_image": "/public/avatars/Userpic.jpg",
+      "sales_manager_image": "/public/avatars/Userpic.jpg",
+      "start_date": "14.03.2025",
+      "account_manager": "Serega",
+      "sales_manager": "Seriy",
+      "status": "INACTIVE",
+      "type_of_client": "Webmaster",
+      "experience": "Noob",
+      "monthly_budgets": "1000$ - 5000$",
+      "balance_usd": 55579.38,
+      "balance_rub": 140345.00,
+      "loans_rub": 140345.00,
+      "offers": [
+        {
+          "id": 1,
+          "title": "Primary Text",
+          "sources": ["Google", "Facebook", "TikTok", "Yandex"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "title": "Secondary Text",
+          "sources": ["Google"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "ACTIVE"
+        },
+        {
+          "id": 3,
+          "title": "Secondary Text",
+          "sources": ["Google"],
+          "spend": 23456.78,
+          "profit": 23456.78,
+          "status": "INACTIVE"
+        }
+      ],
+      "payment_terms": [
+        {
+          "id": 1,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "14.03.2023",
+          "status": "ACTIVE"
+        },
+        {
+          "id": 2,
+          "payment_method": "Adstiti ID Hong Kong",
+          "exchange_extras": 20.00,
+          "vat": 20.00,
+          "start_date": "14.03.2023",
+          "status": "ACTIVE"
+        }
+      ]
+    }
+  ]
+}

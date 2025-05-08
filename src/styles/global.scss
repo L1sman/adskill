@@ -1,0 +1,6 @@
+@use "vars";
+
+html,
+body {
+  color: vars.$background-color;
+}

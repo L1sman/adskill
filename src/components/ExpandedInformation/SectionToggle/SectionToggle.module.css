@@ -1,0 +1,26 @@
+.tabToggle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.toggleWrapper {
+  cursor: pointer;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.activeIcon path {
+  fill: #2A32ED;
+}
+
+.inactiveIcon path {
+  fill: #C1C3C8;
+}
+
+/*# sourceMappingURL=SectionToggle.module.css.map */

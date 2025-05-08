@@ -1,0 +1,43 @@
+@use "../../styles/vars";
+
+.container {
+  width: 100%;
+}
+
+.tableWrapper {
+  border-radius: 15px;
+}
+
+.table {
+  width: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  border-collapse: collapse;
+  background-color: white;
+  color: vars.$base-text;
+  thead {
+    background-color: vars.$table-header;
+    color: #333333;
+    font-weight: vars.$font-weight-semi-bold;
+    font-size: vars.$font-size-lg;
+  }
+  th, td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+}
+
+.expandedContent {
+  padding: 1rem;
+  border-top: 1px solid #ccc;
+}
+
+.cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row {
+  cursor: pointer;
+}
